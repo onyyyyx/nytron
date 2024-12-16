@@ -1,5 +1,5 @@
 # About Me:
-ðŸ”­ Iâ€™m currently working on Vue.js<br>ðŸ‘¯ Iâ€™m looking to collaborate on IT projects<br>ðŸŒ± Iâ€™m currently learning C++
+I'm currently working on Vue.js<br>I'm looking to collaborate on IT projects<br>I'm currently learning C++
 
 
 ## Socials:
