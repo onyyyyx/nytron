@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -15,22 +15,43 @@
 body {
   text-align: center;
   header {
-    img {
+    margin-bottom: 30px;
+    .usericon {
       width: 50%;
       aspect-ratio: 1;
-      border-radius: 100px;
+      border-radius: 100%;
+      padding: 0 15px 30px 15px;
+      background-color: black;
     }
   }
   main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 100%));
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
     .card {
-      display: flex;
-      background-color: #111;
-      padding: 20px 40px;
+      width: 200px;
+      background-color: rgb(170, 170, 170);
       border-radius: 30px;
-      svg {
-        color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 4.5rem;
+      height: 75px;
+      overflow: hidden;
+      text-decoration: none;
+      .icon {
+        height: 150%;
+        padding-right: 50px;
+        margin-left: -15px;
+        mask-image: linear-gradient(to right, black 0%, transparent 100%);
+      }
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin: 0;
+        color: black;
       }
     }
   }
